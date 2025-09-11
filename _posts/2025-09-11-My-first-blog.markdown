@@ -14,7 +14,6 @@ categories: jekyll update
 | Header One     | Header Two     |
 | :------------- | :------------- |
 | Item One       | Item Two       |
-| :------------- | :------------- |
 | Item longOne long  long      | Item Two    long long   |
 
 ## 二级标题
