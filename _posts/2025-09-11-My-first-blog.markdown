@@ -9,15 +9,18 @@ categories: jekyll update
 
 * 列表
 * 列表
-
+<br>
 表格：
+<br>
 | Header One     | Header Two     |
 | :------------- | :------------- |
 | Item One       | Item Two       |
 | Item longOne long  long      | Item Two    long long   |
+<br>
+<br>
 
 ## 二级标题
-
+<br>
 图片：
 <br>
 
@@ -25,6 +28,7 @@ categories: jekyll update
 <p align="center">一只大老虎</p>
 <br>
 
+代码段
 ```c
 void it_it_c_func(void)
 {
@@ -32,12 +36,13 @@ void it_it_c_func(void)
 }
 ```
 
-
+<br>
 1. 列表
 2. 列表
 
 
 
+<br>
 
 引用：[菜菜的阿庄][caizhuang]
 
