@@ -30,7 +30,8 @@ categories: jekyll update
 
 ## 二级标题
 
-![另一种图片插入方式](/assets/images/first-blog/cat_old.png)
+![另一种图片插入方式](/assets/images/first-blog/cat_old.png){: .img-center }
+
 
 <div align="center"><img src="/assets/images/cat.png"/></div>
 <p align="center">一只大老虎</p>
