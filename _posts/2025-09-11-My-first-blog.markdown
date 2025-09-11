@@ -7,7 +7,24 @@ categories: jekyll update
 
 # 一级标题
 
-# 二级标题
+* 列表
+* 列表
+
+表格：
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |
+| :------------- | :------------- |
+| Item longOne long  long      | Item Two    long long   |
+
+## 二级标题
+
+图片：
+<br>
+
+<div align="center"><img src="/assets/images/cat.png"/></div>
+<p align="center">一只大老虎</p>
+<br>
 
 ```c
 void it_it_c_func(void)
@@ -16,8 +33,6 @@ void it_it_c_func(void)
 }
 ```
 
-* 列表
-* 列表
 
 1. 列表
 2. 列表
