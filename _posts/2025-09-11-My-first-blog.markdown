@@ -12,7 +12,7 @@ categories: jekyll update
 
 
 
-1. test
+1. test![](..\assets\images\2025-09-11-My-first-blog\2025-09-11-15-07-08-image.png)
 
 2. testttt
 
@@ -30,9 +30,7 @@ categories: jekyll update
 
 ## 二级标题
 
-<br>
-图片：
-<br>
+![另一种图片插入方式](../assets/images/first-blog/cat_old.png)
 
 <div align="center"><img src="/assets/images/cat.png"/></div>
 <p align="center">一只大老虎</p>
