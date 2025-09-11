@@ -10,21 +10,26 @@ categories: jekyll update
 * 列表
 * 列表
 
+
+
+1. test
+
+2. testttt
+
 <br>
 表格：
 
-| Device          | ACRN | Crosvm | ID In virtio spec | Frontend  Upstream          | Description                                                  |
-| --------------- | :----: | :------: | :-------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| virtio-block    | Y    | Y      | 2     | Yes                         | Basic read/write block device.                               |
-| virtio-net      | Y    | Y      | 1     | Yes                         | Device to interface the host and guest networks.             |
-| virtio-rng      | Y    | Y      | 4     | Yes                         | Entropy source used to seed guest OS's entropy pool.         |
-| virtio-vsock    | N    | Y      | 19    | Yes                         | Enabled VSOCKs for host/guest communication.                 |
-
+| Device       | ACRN | Crosvm | ID In virtio spec | Frontend  Upstream | Description                                          |
+| ------------ |:----:|:------:|:-----------------:| ------------------ | ---------------------------------------------------- |
+| virtio-block | Y    | Y      | 2                 | Yes                | Basic read/write block device.                       |
+| virtio-net   | Y    | Y      | 1                 | Yes                | Device to interface the host and guest networks.     |
+| virtio-rng   | Y    | Y      | 4                 | Yes                | Entropy source used to seed guest OS's entropy pool. |
+| virtio-vsock | N    | Y      | 19                | Yes                | Enabled VSOCKs for host/guest communication.         |
 
 <br>
 
-
 ## 二级标题
+
 <br>
 图片：
 <br>
@@ -34,6 +39,7 @@ categories: jekyll update
 <br>
 
 代码段
+
 ```c
 void it_it_c_func(void)
 {
@@ -45,11 +51,8 @@ void it_it_c_func(void)
 1. 列表
 2. 列表
 
-
-
 <br>
 
 引用：[菜菜的阿庄][caizhuang]
-
 
 [caizhuang]: https://blog.csdn.net/qq_28499879
