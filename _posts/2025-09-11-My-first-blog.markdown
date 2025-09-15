@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "第一篇，markdown语法实验"
-date:   2025-09-10 17:48:27 +0800
-categories: jekyll update
+categories: ['markdown'] 
+tags: ['markdown'] 
+author: ZHuangJC
+description: just a jekyll test
+issueId: 2025-09-11-My-first-blog
 ---
 
 # 一级标题
