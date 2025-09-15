@@ -1,2 +1,11 @@
-- url: "https://blog.csdn.net/qq_28499879"
-  title: "菜菜的阿庄"
+- url: "http://jekyllrb.com/"
+  title: "Jekyll"
+
+- url: "http://getbootstrap.com/"
+  title: "Bootstrap"
+
+- url: "https://github.com/"
+  title: "Github"
+
+- url: "https://github.com/zxixia/jekyll-xixia"
+  title: "Xixia"      
