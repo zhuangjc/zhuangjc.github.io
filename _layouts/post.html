@@ -9,6 +9,7 @@ layout: default
             {{ page.date | date: date_format }}
         </span>
         <hr style="border-top:1px solid #28323C;"/>
+
     <div class="post-content">
     {{ content }}
     <hr style="border-top:1px solid #28323C;"/>
@@ -64,8 +65,9 @@ layout: default
     {% endunless %}  
 
     </div>
-
-    {% include gitment-comments.html %}
+	
+    {% include gitment-comments.html %} 
+	
 </div>
 <div class="pagination">
     {% if page.next %}
