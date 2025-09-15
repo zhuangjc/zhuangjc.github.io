@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2025-09-10 17:48:27 +0800
 categories: ['jekyll'] 
 tags: ['jekyll'] 
 author: ZHuangJC

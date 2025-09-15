@@ -1,25 +1,30 @@
 {% include header.html %}
 
 <div class="wrap">
-    <div class="container container-left">
-        <div class="row">
-            <div class="col-md-3 hidden-xs">
-                {% include sidebar.html %}
+    <div class="content-wrapper">
+        <section class="content">
+            <div class="row">
+                <div class="col-md-2 hidden-xs">
+                    {% include sidebar.html %}
+                </div>
+                <div class="col-md-6">
+                    {{ content }}
+                </div>
+                <div class="col-md-4 hidden-xs">
+                    {% include gitment-comments.html %} 
+                </div>
             </div>
-            <div class="col-md-9">
-			    <input type="search" id="search-input" placeholder="search...">
-			    <ul id="results-container"></ul>
-                {{ content }}
-            </div>
-        </div>
+
+	</section>
+
     </div>
 
     {% include footer.html %}
 </div>
 
-<script src="{{ site.baseurl }}/js/simple-jekyll-search-min.js"></script>
+<!-- <script src="{{ site.baseurl }}/js/simple-jekyll-search-min.js"></script> -->
 
-<script>
+<!-- <script>
     window.simpleJekyllSearch = new SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
@@ -30,4 +35,4 @@
       fuzzy: false,
       exclude: ['Welcome']
     })
-</script>
+</script> -->
