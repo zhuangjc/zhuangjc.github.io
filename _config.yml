@@ -12,16 +12,21 @@ url: https://zhuangjc.github.io/
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-# baseurl: 'zhuangjc.github.io'
+baseurl: ''
 
 ## default date_format
 date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
-# Language
-lan: "en" 
+  title: "%Y年%-m月%-d日"
+  archive: "%-m月"
+  categories: "%Y年-%-m月"
+  tag: "%Y年-%-m月"
+# Language，控制页面是否显示资源，资源文件存放在_data\values
+# en 英文 cn 中文
+lan: "cn" 
+
+# 开启评论
+comments: true
+gitment: on
 
 paginate: 15
 
